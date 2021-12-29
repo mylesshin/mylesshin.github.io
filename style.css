@@ -596,14 +596,14 @@ body {
   border-left: 156px solid transparent;
   border-right: 156px solid transparent;
   position: relative;
-  top: -108px;
+  top: -107px;
 }
 
 .hex:after {
   content: "";
   width: 0;
   position: relative;
-  bottom: -70px;
+  bottom: -69px;
   border-top: 90px solid;
   border-color: inherit;
   border-left: 156px solid transparent;
