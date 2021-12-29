@@ -534,24 +534,24 @@ body {
 
 .pic2 {
   display: inline-block;
-  height: 370px;
-  width: 320px;
+  height: 270px;
+  width: 290px;
   margin-bottom: -40px;
   margin-left: -10px;
 }
 
 .pic3 {
   display: inline-block;
-  height: 370px;
-  width: 300px;
+  height: 270px;
+  width: 230px;
   margin-bottom: -40px;
   margin-left: -10px;
 }
 
 .pic4 {
   display: inline-block;
-  height: 370px;
-  width: 320px;
+  height: 270px;
+  width: 260px;
   margin-bottom: -40px;
   margin-left: -10px;
 }
@@ -561,22 +561,22 @@ body {
   margin-top: -20px;
   margin-left: -10px;
   margin-right: -10px;
-  height: 550px;
-  width: 410px;
+  height: 475px;
+  width: 339px;
 }
 
 .pic6 {
   display: inline-block;
   margin-left: -10px;
-  height: 550px;
-  width: 435px;
+  height: 510px;
+  width: 365px;
 }
 
 .pic7 {
   display: inline-block;
   margin-left: -10px;
-  height: 550px;
-  width: 432px;
+  height: 475px;
+  width: 368px;
 }
 
 .hex {
