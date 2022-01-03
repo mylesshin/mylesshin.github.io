@@ -154,7 +154,7 @@ h1 {
 h2 {
   text-align: center;
   display: block;
-  font-size: 80px;
+  font-size: 70px;
   color: white;
   font-family: lulo;
   font-weight: bolder;
@@ -290,7 +290,8 @@ subtitle {
 
 .header {
   min-height: 100vh;
-  width: 100%;
+  align-items: center;
+  text-align: center;
   font-family: sans-serif;
 }
 
@@ -839,4 +840,50 @@ h5 {
   margin-right:10px;
   vertical-align: top;
   font-weight: bolder;
+}
+@media (max-width: 1300px){
+  h1{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  subtitle{
+    padding-top: 4rem;
+    font-size: 1.3rem;
+  }
+  .subtitle-container subtitle span {
+    /* height: 8.5rem; */
+    margin-top: 6.5rem;
+    vertical-align: bottom;
+    height: 20%;
+  }
+  .inner-cursor {
+      background-color: transparent;
+  }
+  .outer-cursor {
+    background-color: transparent;
+      border: 0px solid transparent;
+  }
+  .hamburgerMenu {
+    top: 20px;
+    right: 20px;
+  }
+  p {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 9.3%;
+    margin-right: 9.3%;
+  }
+  .subscript {
+    font-size: 3.5rem;
+    padding-bottom: 0px;
+  }
+  .number-script {
+    font-size: 1rem;
+  }
+  .front-script {
+    font-size: 3rem;
+  }
 }
