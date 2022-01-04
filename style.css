@@ -738,19 +738,21 @@ h5 {
 }
 
 .typing {
-  animation: type1 1s steps(20,end) forwards;
-  width: 0;
+  opacity: 0;
+  animation: type1 500ms steps(4000);
   white-space: nowrap;
   overflow: hidden;
 }
 
 @keyframes type1 {
-  from{
-    width: 0;
+  0% {
+    width: 0%;
+    opacity: 0;
   }
 
-  to {
-    width: 100%;
+  100% {
+    opacity: 1;
+    width: 620px;
   }
 }
 
