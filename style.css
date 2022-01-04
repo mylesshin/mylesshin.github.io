@@ -577,7 +577,7 @@ body {
   width: 312px;
   height: 180px;
   position: relative;
-  display: inline-block;
+  display: block;
 }
 
 .hex:before {
@@ -604,19 +604,19 @@ body {
 }
 
 .hex1 {
-  display: inline-block;
+  display: block;
   background-color: #FF4F4F;
   border-color: #FF4F4F;
 }
 
 .hex2 {
-  display: inline-block;
+  display: block;
   background-color: #32BA84;
   border-color: #32BA84;
 }
 
 .hex3 {
-  display: inline-block;
+  display: block;
   background-color: #5BA7D1;
   border-color: #5BA7D1;
 }
@@ -1123,7 +1123,7 @@ margin-top: 11.6rem;
  }
  .col-right{
    margin-left: 14%;
-   margin-top: 9rem;
+   margin-top: 8.5rem;
  }
 
    .pic1 {
