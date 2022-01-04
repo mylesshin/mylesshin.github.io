@@ -868,9 +868,7 @@ h5 {
  }
 
  .pfp {
-   display: inline-block;
    margin-top: 10rem;
-   border-radius: 50%;
    height: 10rem;
    width: 10rem;
    margin-left: -30%;
@@ -941,7 +939,7 @@ h5 {
     content: "";
     width: 0;
     position: relative;
-    bottom: -78px;
+    bottom: -79px;
     border-top: 90px solid;
     border-color: inherit;
     border-left: 7.5rem solid transparent;
@@ -1098,6 +1096,112 @@ margin-top: 11.6rem;
 .edit{
   margin-bottom: -5rem;
 }
+
+.name{
+  margin-left: -40%;
+  font-size: 2rem;
+}
+
+.pfp {
+  margin-top: 8rem;
+  height: 6rem;
+  width: 6rem;
+  margin-left: -55%;
+ }
+
+ .logo {
+   height: 3rem;
+   width: 3rem;
+   margin-left: -2.5rem;
+ }
+
+ .bio{
+   font-size: 1rem;
+ }
+ .bio2{
+   font-size: 1rem;
+ }
+ .col-right{
+   margin-left: 14%;
+   margin-top: 8rem;
+ }
+
+   .pic1 {
+     height: 9rem;
+     width: 7rem;
+
+   }
+
+   .pic2 {
+     height: 9rem;
+     width: 7rem;
+   }
+   .pic3 {
+     height: 9rem;
+     width: 7rem;
+     margin-left: -2.6rem;
+   }
+   .pic4 {
+     display: inline-block;
+     height: 9rem;
+     width: 7rem;
+     margin-left: -2.2rem;
+   }
+
+   .pic5 {
+     margin-top: -20px;
+     height: 12rem;
+     width: 9rem;
+   }
+
+   .pic6 {
+     margin-left: -19px;
+     height: 12rem;
+     width: 9rem;
+   }
+
+   .pic7 {
+     display: inline-block;
+     margin-left: -17px;
+     height: 11rem;
+     width: 8rem;
+   }
+
+     .button-small {
+       height: 4rem;
+       width: 4rem;
+     }
+
+     .button-right {
+       height: 4rem;
+       width: 4rem;
+     }
+
+     .image3{
+       height: 4rem;
+       width: 4rem;
+     }
+
+     .image4 {
+       height: 5rem;
+       padding-left: 3rem;
+       padding-right: 3rem;
+     }
+
+     .left-col{
+       align-items: center;
+       margin-left: 0%;
+     }
+
+    .ventures{
+      margin-left: 24%;
+      margin-top: 15rem;
+    }
+
+    .space{
+      margin-top: 28rem;
+    }
+
 }
 
 
