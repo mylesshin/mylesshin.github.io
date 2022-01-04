@@ -859,14 +859,14 @@ h5 {
  }
 
  .name{
-   margin-left: -30%;
+   margin-left: -13%;
    font-size: 4rem;
  }
  .bio{
-   font-size: 1.2rem;
+   font-size: 1.5rem;
  }
  .bio2{
-   font-size: 1.2rem;
+   font-size: 1.5rem;
  }
 
  .pfp {
@@ -875,12 +875,7 @@ h5 {
    border-radius: 50%;
    height: 10rem;
    width: 10rem;
-   margin-left: -50%;
-  }
-
-  .col-right{
-    margin-left: -83.5%;
-    margin-top: 11.6rem;
+   margin-left: -30%;
   }
 
   .pic1 {
@@ -948,7 +943,7 @@ h5 {
     content: "";
     width: 0;
     position: relative;
-    bottom: -89px;
+    bottom: -88.5px;
     border-top: 90px solid;
     border-color: inherit;
     border-left: 7.5rem solid transparent;
@@ -1000,7 +995,8 @@ h5 {
 }
 
 .col-right {
-margin-left: 35%;
+margin-left: 45%;
+margin-top: 11.6rem;
 }
 
 .ventures{
