@@ -838,11 +838,11 @@ h5 {
     padding-bottom: 2rem;
   }
   h2{
-    font-size: 1rem;
+    font-size: 1.6rem;
     text-align: center;
   }
   subtitle{
-    padding-top: 0rem;
+    padding-top: 0.5rem;
     font-size: 1.3rem;
   }
   .subtitle-container subtitle span {
@@ -905,4 +905,10 @@ h5 {
   width: 5.7rem;
 }
 
+.remove-rem{
+  margin-top: -16rem;
+}
+.vertical_dotted_line_space {
+  border-left: 6px dotted white;
+}
 }
