@@ -521,7 +521,8 @@ body {
   display: inline-block;
   height: 370px;
   width: 320px;
-  margin-bottom: -40px;
+  margin-bottom: -200px;
+  margin-left: 0%;
 }
 
 .pic2 {
@@ -635,7 +636,6 @@ h5 {
   font-family: raleway;
   color: white;
   text-align: center;
-  marign-top: -50px;
 }
 
 .hex-list {
@@ -687,8 +687,6 @@ h5 {
   margin-right: auto;
   width: 1100px;
 }
-
-.hex-container {}
 
 .flip-in {
   opacity: 0;
@@ -859,6 +857,161 @@ h5 {
    width: 24rem;
    padding-left: 4rem;
  }
+
+ .name{
+   margin-left: -30%;
+   font-size: 4rem;
+ }
+ .bio{
+   font-size: 1.2rem;
+ }
+ .bio2{
+   font-size: 1.2rem;
+ }
+
+ .pfp {
+   display: inline-block;
+   margin-top: 10rem;
+   border-radius: 50%;
+   height: 10rem;
+   width: 10rem;
+   margin-left: -50%;
+  }
+
+  .col-right{
+    margin-left: -83.5%;
+    margin-top: 11.6rem;
+  }
+
+  .pic1 {
+    height: 14rem;
+    width: 10rem;
+  }
+
+  .pic2 {
+    height: 14rem;
+    width: 11rem;
+  }
+  .pic3 {
+    height: 14rem;
+    width: 11rem;
+    margin-left: -2rem;
+  }
+  .pic4 {
+    display: inline-block;
+    height: 14rem;
+    width: 11rem;
+    margin-left: -2rem;
+  }
+
+  .pic5 {
+    margin-top: -20px;
+    height: 17rem;
+    width: 14rem;
+  }
+
+  .pic6 {
+    margin-left: -15px;
+    height: 17rem;
+    width: 14rem;
+  }
+
+  .pic7 {
+    display: inline-block;
+    margin-left: -13px;
+    height: 17rem;
+    width: 14rem;
+  }
+
+
+  .hex {
+    margin-top: 90px;
+    width: 15rem;
+    height: 10rem;
+    position: relative;
+    display: inline-block;
+  }
+
+  .hex:before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-bottom: 90px solid;
+    border-color: inherit;
+    border-left: 7.5rem solid transparent;
+    border-right: 7.5rem solid transparent;
+    position: relative;
+    top: -107px;
+  }
+
+  .hex:after {
+    content: "";
+    width: 0;
+    position: relative;
+    bottom: -89px;
+    border-top: 90px solid;
+    border-color: inherit;
+    border-left: 7.5rem solid transparent;
+    border-right: 7.5rem solid transparent;
+  }
+  .hex2{
+    padding-top: -50px;
+  }
+  .hex-item{
+    font-size: 1rem;
+  }
+
+  .button-small {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .button-right {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .image3{
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .image4 {
+    height: 7rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .small-white-title{
+    font-size: 2.3rem;
+  }
+
+  .smaller {
+    font-size: 1.3rem;
+  }
+
+  .smallest{
+    font-size: 1rem;
+
+  }
+
+.left-col{
+  margin-left: -42%;
+}
+
+.col-right {
+margin-left: 35%;
+}
+
+.ventures{
+  margin-top: 1rem;
+  margin-left: 45%;
+}
+
+.remove-seventy-pad{
+  margin-bottom: 14rem;
+}
+
 }
 
 /* normal sized phones */
@@ -934,28 +1087,6 @@ h5 {
 .vertical_dotted_line_space {
   border-left: 6px dotted white;
 }
-
-/* .name{
-  font-size: 4rem;
-}
-.bio{
-  font-size: 1.5rem;
-}
-.bio2{
-  font-size: 1.5rem;
-}
-
-.pfp {
-  display: inline-block;
-  margin-top: 220px;
-  border-radius: 50%;
-  height: 14rem;
-  width: 14rem;
-  margin-left: -10%;
- }
- .col-right{
-   margin-left: 10%;
- } */
 
  .logo-drawing {
    height: 10rem;
