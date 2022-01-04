@@ -243,13 +243,6 @@ subtitle {
   filter: opacity(0.5);
 }
 
-/* .circleButton{
-  border: 0;
-  background: rgb(192,192,192);
-  border-radius: 50%;
-  height: 10px;
-  width: 10px;
-} */
 .button {
   border: 0;
   background: rgb(192, 192, 192);
@@ -841,11 +834,11 @@ h5 {
 }
 @media (max-width: 1300px){
   h1{
-    font-size: 3.7rem;
+    font-size: 3.5rem;
     padding-bottom: 2rem;
   }
   h2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
   }
   subtitle{
@@ -893,6 +886,24 @@ h5 {
 .navItem{
   align-items: center;
   margin-left: 29%;
+}
+.image1 {
+  height: 100px;
+  width: 100px;
+  margin-bottom: -95px;
+}
+
+.image2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90px;
+  width: 90px;
+}
+
+.button {
+  height: 90px;
+  width: 90px;
 }
 
 }
