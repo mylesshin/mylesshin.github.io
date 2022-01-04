@@ -610,14 +610,12 @@ body {
 }
 
 .hex2 {
-  /* align-items: center; */
   display: inline-block;
   background-color: #32BA84;
   border-color: #32BA84;
 }
 
 .hex3 {
-  /* align-items: center; */
   display: inline-block;
   background-color: #5BA7D1;
   border-color: #5BA7D1;
@@ -995,7 +993,7 @@ h5 {
 }
 
 .col-right {
-margin-left: 41.5%;
+margin-left: 45%;
 margin-top: 11.6rem;
 }
 
@@ -1100,7 +1098,6 @@ margin-top: 11.6rem;
 .edit{
   margin-bottom: -5rem;
 }
-
 }
 
 
