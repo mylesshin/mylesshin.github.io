@@ -832,7 +832,13 @@ h5 {
   vertical-align: top;
   font-weight: bolder;
 }
+
+/* tablets */
 @media (max-width: 1300px){
+}
+
+/* normal sized phones */
+@media (max-width: 900px){
   h1{
     font-size: 3.5rem;
     padding-bottom: 2rem;
@@ -906,9 +912,56 @@ h5 {
 }
 
 .remove-rem{
-  margin-top: -16rem;
+  margin-top: -14rem;
 }
 .vertical_dotted_line_space {
   border-left: 6px dotted white;
 }
+
+/* .name{
+  font-size: 4rem;
+}
+.bio{
+  font-size: 1.5rem;
+}
+.bio2{
+  font-size: 1.5rem;
+}
+
+.pfp {
+  display: inline-block;
+  margin-top: 220px;
+  border-radius: 50%;
+  height: 14rem;
+  width: 14rem;
+  margin-left: -10%;
+ }
+ .col-right{
+   margin-left: 10%;
+ } */
+
+ .logo-drawing {
+   height: 10rem;
+   width: 8rem;
+   margin-bottom: -2.5rem;
+}
+.figma {
+  height: 6rem;
+  width: 12rem;
+  padding-left: 2rem;
+}
+
+.top-line {
+  font-size: 6rem;
+}
+
+.edit{
+  margin-bottom: -5rem;
+}
+
+}
+
+
+/* smaller phones */
+@media (max-width: 600px){
 }
