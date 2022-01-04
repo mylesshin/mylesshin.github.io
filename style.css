@@ -835,10 +835,34 @@ h5 {
 
 /* tablets */
 @media (max-width: 1300px){
+  .remove-rem{
+    margin-bottom: -30rem;
+  }
+
+  .inner-cursor {
+      background-color: transparent;
+  }
+
+  .outer-cursor {
+    background-color: transparent;
+      border: 0px solid transparent;
+  }
+
+  .logo-drawing {
+    height: 19rem;
+    width: 15rem;
+    margin-bottom: -3.5rem;
+ }
+
+ .figma {
+   height: 11rem;
+   width: 24rem;
+   padding-left: 4rem;
+ }
 }
 
 /* normal sized phones */
-@media (max-width: 900px){
+@media (max-width: 765px){
   h1{
     font-size: 3.5rem;
     padding-bottom: 2rem;
@@ -855,13 +879,6 @@ h5 {
     margin-top: -.2rem;
     vertical-align: bottom;
     height: 120%;
-  }
-  .inner-cursor {
-      background-color: transparent;
-  }
-  .outer-cursor {
-    background-color: transparent;
-      border: 0px solid transparent;
   }
   .hamburgerMenu {
     top: 20px;
@@ -964,4 +981,18 @@ h5 {
 
 /* smaller phones */
 @media (max-width: 600px){
+  .logo-drawing {
+    height: 9rem;
+    width: 7rem;
+    margin-bottom: -2rem;
+ }
+ .figma {
+   height: 5rem;
+   width: 10rem;
+   padding-left: 2rem;
+ }
+
+ .remove-rem{
+   margin-top: 0rem;
+ }
 }
