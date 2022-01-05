@@ -686,10 +686,10 @@ h5 {
   width: auto;
 }
 
-.flip-in {
+/* .flip-in {
   opacity: 0;
   animation: flip1 0s ease forwards;
-}
+} */
 
 @keyframes flip1 {
   from {
@@ -1319,4 +1319,12 @@ margin-top: 11.6rem;
       height: 10rem;
       width: 8rem;
     }
+}
+
+@media (min-width: 1500px){
+
+  .flip-in {
+    opacity: 0;
+    animation: flip1 0s ease forwards;
+  }
 }
