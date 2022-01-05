@@ -686,10 +686,10 @@ h5 {
   width: auto;
 }
 
-/* .flip-in {
+.flip-in {
   opacity: 0;
   animation: flip1 0s ease forwards;
-} */
+}
 
 @keyframes flip1 {
   from {
@@ -750,24 +750,6 @@ h5 {
   from { width: 0 }
   to { width: 100% }
 }
-/* .typing {
-  opacity: 0;
-  animation: type1 500ms steps(4000);
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-@keyframes type1 {
-  0% {
-    width: 0%;
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-    width: 620px;
-  }
-} */
 
 .logo-drawing {
   transform: rotate(-90deg);
@@ -1234,14 +1216,14 @@ margin-top: 11.6rem;
         border-left: 3.0rem solid transparent;
         border-right: 3.0rem solid transparent;
         position: relative;
-        top: -63px;
+        top: -62.5px;
       }
 
       .hex:after {
         content: "";
         width: 0;
         position: relative;
-        bottom: -38px;
+        bottom: -43px;
         border-top: 45px solid;
         border-color: inherit;
         border-left: 3rem solid transparent;
@@ -1319,12 +1301,4 @@ margin-top: 11.6rem;
       height: 10rem;
       width: 8rem;
     }
-}
-
-@media (min-width: 1500px){
-
-  .flip-in {
-    opacity: 0;
-    animation: flip1 0s ease forwards;
-  }
 }
