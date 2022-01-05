@@ -1264,4 +1264,44 @@ margin-top: 11.6rem;
  .remove-rem{
    margin-top: 0rem;
  }
+
+    .pic1 {
+      height: 8rem;
+      width: 6rem;
+
+    }
+
+    .pic2 {
+      height: 8rem;
+      width: 6rem;
+    }
+    .pic3 {
+      height: 8rem;
+      width: 6rem;
+      margin-left: -2.5rem;
+    }
+    .pic4 {
+      height: 8rem;
+      width: 6rem;
+      margin-left: -1.9rem;
+    }
+
+    .pic5 {
+      margin-top: -20px;
+      height: 10rem;
+      width: 7rem;
+    }
+
+    .pic6 {
+      margin-left: -19px;
+      height: 10rem;
+      width: 7rem;
+    }
+
+    .pic7 {
+      display: inline-block;
+      margin-left: -15px;
+      height: 10rem;
+      width: 8rem;
+    }
 }
