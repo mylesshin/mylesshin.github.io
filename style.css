@@ -1202,6 +1202,49 @@ margin-top: 11.6rem;
       margin-top: 28rem;
     }
 
+
+
+      .hex {
+        margin-top: 45px;
+        width: 6rem;
+        height: 4rem;
+        position: relative;
+        display: inline-block;
+      }
+
+      .hex:before {
+        content: " ";
+        width: 0;
+        height: 0;
+        border-bottom: 45px solid;
+        border-color: inherit;
+        border-left: 3.0rem solid transparent;
+        border-right: 3.0rem solid transparent;
+        position: relative;
+        top: -62.5px;
+      }
+
+      .hex:after {
+        content: "";
+        width: 0;
+        position: relative;
+        bottom: -43px;
+        border-top: 45px solid;
+        border-color: inherit;
+        border-left: 3rem solid transparent;
+        border-right: 3rem solid transparent;
+      }
+      .hex2{
+        padding-top: -25px;
+      }
+      .hex-item{
+        font-size: .4rem;
+      }
+      .hex-title{
+        font-size: .8rem;
+        margin-top: -.8rem;
+      }
+
 }
 
 
