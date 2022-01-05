@@ -604,19 +604,19 @@ body {
 }
 
 .hex1 {
-  display: block;
+  display: inline-block;
   background-color: #FF4F4F;
   border-color: #FF4F4F;
 }
 
 .hex2 {
-  display: block;
+  display: inline-block;
   background-color: #32BA84;
   border-color: #32BA84;
 }
 
 .hex3 {
-  display: block;
+  display: inline-block;
   background-color: #5BA7D1;
   border-color: #5BA7D1;
 }
