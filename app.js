@@ -207,25 +207,24 @@ fades3.forEach(fades3 => {
   observer.observe(fades3)
 })
 
-
 //fade-in3 transitions. checks to see if user is on that part of the screen and
 //will run the animation if they are and animation will stay they after
-const revealingIt = document.querySelectorAll('.cover span');
-var revealNum = -1;
+const fades4 = document.querySelectorAll('.fade-in4');
+var fadeNum4 = -1;
 
 observer = new IntersectionObserver((entries) => {
 
   entries.forEach(entry => {
     if (entry.intersectionRatio > 0) {
-      entry.target.style.animation = `revealing 3s ${entry.target.dataset.delay}
+      entry.target.style.animation = `fade4 1s ${entry.target.dataset.delay}
       forwards ease-out`;
-      revealNum = entry.intersectionRatio;
-    } else if (revealNum > 0) {} else {
+      fadeNum4 = entry.intersectionRatio;
+    } else if (fadeNum4 > 0) {} else {
       entry.target.style.animation = 'none';
     }
   })
 })
 
-revealingIt.forEach(revealingIt => {
-  observer.observe(revealingIt)
+fades4.forEach(fades4 => {
+  observer.observe(fades4)
 })

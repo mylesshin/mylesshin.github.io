@@ -684,6 +684,22 @@ h5 {
     opacity: 1;
   }
 }
+fade-in4 {
+  opacity: 0;
+  animation: fade4 ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1.4s;
+}
+
+@keyframes fade4 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
 
 .fade-in2 {
   opacity: 0;
