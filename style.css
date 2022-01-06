@@ -395,10 +395,8 @@ body {
   color: transparent;
   animation: text_revealing 0s ease forwards;
   animation-delay: 2s;
-  /* animation-delay: 1s; */
   display: inline-block;
   width: fit-content;
-  /* opacity: 0; */
 }
 
 .subtitle-container subtitle {
@@ -572,53 +570,57 @@ body {
   width: 368px;
 }
 
-.hex {
-  margin-top: 90px;
-  width: 312px;
-  height: 180px;
+.box{
+  width: 275px;
+  height: 275px;
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 25%;
   position: relative;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
 
-.hex:before {
-  content: " ";
-  width: 0;
-  height: 0;
-  border-bottom: 90px solid;
-  border-color: inherit;
-  border-left: 156px solid transparent;
-  border-right: 156px solid transparent;
-  position: relative;
-  top: -107px;
-}
-
-.hex:after {
-  content: "";
-  width: 0;
-  position: relative;
-  bottom: -69px;
-  border-top: 90px solid;
-  border-color: inherit;
-  border-left: 156px solid transparent;
-  border-right: 156px solid transparent;
-}
-
-.hex1 {
+.box1{
   display: inline-block;
-  background-color: #FF4F4F;
   border-color: #FF4F4F;
 }
 
-.hex2 {
+.box2{
   display: inline-block;
-  background-color: #32BA84;
   border-color: #32BA84;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.hex3 {
+.box3{
   display: inline-block;
-  background-color: #5BA7D1;
   border-color: #5BA7D1;
+}
+
+.box-title{
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-size: bold;
+}
+
+.box-item {
+  font-size: 23px;
+  font-family: raleway;
+  color: white;
+  text-align: center;
+}
+
+.box-list {
+  list-style-type: none;
+}
+
+.box-row {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 h5 {
@@ -627,22 +629,6 @@ h5 {
   font-family: raleway;
   font-weight: bolder;
   text-align: center;
-}
-
-.hex-item {
-  font-size: 23px;
-  font-family: raleway;
-  color: white;
-  text-align: center;
-}
-
-.hex-list {
-  list-style-type: none;
-}
-
-.hex-title {
-  padding-top: -10px;
-  padding-bottom: 10px;
 }
 
 .image4 {
@@ -660,12 +646,6 @@ h5 {
 }
 
 .images-row {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.hex-row {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -737,6 +717,22 @@ h5 {
   }
 }
 
+.fade-in3 {
+  opacity: 0;
+  animation: fade3 ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1.4s;
+}
+
+@keyframes fade3 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
 
 .typing{
       font-size: 2.5rem;
@@ -907,44 +903,6 @@ h5 {
     margin-left: -13px;
     height: 17rem;
     width: 14rem;
-  }
-
-
-  .hex {
-    margin-top: 90px;
-    width: 15rem;
-    height: 10rem;
-    position: relative;
-    display: inline-block;
-  }
-
-  .hex:before {
-    content: " ";
-    width: 0;
-    height: 0;
-    border-bottom: 90px solid;
-    border-color: inherit;
-    border-left: 7.5rem solid transparent;
-    border-right: 7.5rem solid transparent;
-    position: relative;
-    top: -107px;
-  }
-
-  .hex:after {
-    content: "";
-    width: 0;
-    position: relative;
-    bottom: -79px;
-    border-top: 90px solid;
-    border-color: inherit;
-    border-left: 7.5rem solid transparent;
-    border-right: 7.5rem solid transparent;
-  }
-  .hex2{
-    padding-top: -50px;
-  }
-  .hex-item{
-    font-size: 1rem;
   }
 
   .button-small {
@@ -1197,50 +1155,13 @@ margin-top: 11.6rem;
       margin-top: 28rem;
     }
 
-
-
-      .hex {
-        margin-top: 45px;
-        width: 6rem;
-        height: 4rem;
-        position: relative;
-        display: inline-block;
-      }
-
-      .hex:before {
-        content: " ";
-        width: 0;
-        height: 0;
-        border-bottom: 45px solid;
-        border-color: inherit;
-        border-left: 3.0rem solid transparent;
-        border-right: 3.0rem solid transparent;
-        position: relative;
-        top: -62.5px;
-      }
-
-      .hex:after {
-        content: "";
-        width: 0;
-        position: relative;
-        bottom: -23px;
-        border-top: 45px solid;
-        border-color: inherit;
-        border-left: 3rem solid transparent;
-        border-right: 3rem solid transparent;
-      }
-      .hex2{
-        padding-top: -25px;
-      }
-      .hex-item{
-        font-size: .4rem;
-      }
-      .hex-title{
-        font-size: .8rem;
-        margin-top: -.8rem;
-      }
       .phone{
         margin-left: 30%;
+      }
+
+      .box2{
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
 }
 
