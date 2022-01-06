@@ -949,7 +949,8 @@ fade-in4 {
   }
 
   .image4 {
-    height: 7rem;
+    height: 5rem;
+    width: 17rem;
     padding-left: 5rem;
     padding-right: 5rem;
   }
@@ -994,7 +995,7 @@ fade-in4 {
   }
 
   .box-item {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -1132,7 +1133,7 @@ fade-in4 {
 
   .col-right {
     margin-left: 14%;
-    margin-top: 8.5rem;
+    margin-top: 9.2rem;
   }
 
   .pic1 {
@@ -1193,9 +1194,10 @@ fade-in4 {
   }
 
   .image4 {
-    height: 5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    height: 4rem;
+    width: 11rem;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
   }
 
   .left-col {
