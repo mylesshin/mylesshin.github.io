@@ -25,13 +25,13 @@
   font-family: impact;
 }
 
-@keyframes text_revealing {
+@keyframes text-revealing {
   100% {
     color: white;
   }
 }
 
-@keyframes text_revealing_blue {
+@keyframes text-revealing-blue {
   100% {
     color: rgb(91, 167, 209);
   }
@@ -49,7 +49,7 @@
   }
 }
 
-.navBar {
+.nav-bar {
   width: 460px;
   height: 100%;
   background-color: grey;
@@ -67,11 +67,11 @@
   right: 0;
 }
 
-.navList {
+.nav-list {
   text-align: left;
 }
 
-.navItem {
+.nav-item {
   list-style: none;
   margin: 40px;
 }
@@ -393,14 +393,14 @@ body {
 .container h2 {
   position: relative;
   color: transparent;
-  animation: text_revealing 0s ease forwards;
+  animation: text-revealing 0s ease forwards;
   animation-delay: 2s;
   display: inline-block;
   width: fit-content;
 }
 
 .subtitle-container subtitle {
-  animation: text_revealing_blue 0s ease forwards;
+  animation: text-revealing-blue 0s ease forwards;
   animation-delay: 2s;
 }
 
@@ -1053,7 +1053,7 @@ fade-in4 {
     font-size: 3rem;
   }
 
-  .navItem {
+  .nav-item {
     align-items: center;
     margin-left: 29%;
   }

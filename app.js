@@ -60,7 +60,7 @@ links2.forEach((link) => {
 const menuIcon = document.querySelector('.hamburgerMenu');
 
 
-const navBar = document.querySelector('.navBar');
+const navBar = document.querySelector('.nav-bar');
 
 
 menuIcon.addEventListener('click', () => {
