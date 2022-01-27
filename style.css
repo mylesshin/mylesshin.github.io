@@ -6,22 +6,22 @@
 }
 
 @font-face {
-  src: url(lulo.ttf);
+  src: url(fonts/lulo.ttf);
   font-family: lulo;
 }
 
 @font-face {
-  src: url(anton.ttf);
+  src: url(fonts/anton.ttf);
   font-family: anton;
 }
 
 @font-face {
-  src: url(raleway.ttf);
+  src: url(fonts/raleway.ttf);
   font-family: raleway;
 }
 
 @font-face {
-  src: url(impact.ttf);
+  src: url(fonts/impact.ttf);
   font-family: impact;
 }
 
