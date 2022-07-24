@@ -239,10 +239,6 @@ subtitle {
   width: 130px;
 }
 
-.image3:hover {
-  filter: opacity(0.5);
-}
-
 .button {
   border: 0;
   background: rgb(192, 192, 192);
@@ -511,9 +507,9 @@ body {
 }
 
 .end-pad {
-  padding-bottom: :-200px;
+  padding-bottom: -200px;
 }
-}
+
 
 .pic1 {
   display: inline-block;
@@ -742,6 +738,10 @@ fade-in4 {
   animation-duration: 1.4s;
 }
 
+.remove-rem{
+  margin-top: 60px;
+}
+
 @keyframes fade3 {
   from {
     opacity: 0;
@@ -950,7 +950,7 @@ fade-in4 {
 
   .image4 {
     height: 5rem;
-    width: 17rem;
+    width: 13rem;
     padding-left: 5rem;
     padding-right: 5rem;
   }
@@ -1092,8 +1092,8 @@ fade-in4 {
   }
 
   .figma {
-    height: 6rem;
-    width: 12rem;
+    height: 5.5rem;
+    width: 13rem;
     padding-left: 2rem;
   }
 
