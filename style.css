@@ -1081,6 +1081,10 @@ fade-in4 {
     margin-top: -14rem;
   }
 
+  .remove-seventy-pad{
+    margin-top: 350px;
+  }
+
   .vertical_dotted_line_space {
     border-left: 6px dotted white;
   }
@@ -1236,6 +1240,10 @@ fade-in4 {
     height: 5rem;
     width: 10rem;
     padding-left: 2rem;
+  }
+
+  .remove-seventy-pad{
+    margin-top: 450px;
   }
 
   .remove-rem {
