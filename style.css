@@ -1226,6 +1226,18 @@ fade-in4 {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  .fifty-pad{
+    margin-top: -30px;
+  }
+  
+  .smaller{
+    margin-top: 380px;
+  }
+
+  .space{
+    margin-top: -80px;
+  }
 }
 
 /* smaller phones */
