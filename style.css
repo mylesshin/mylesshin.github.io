@@ -846,17 +846,14 @@ fade-in4 {
 
 /* tablets */
 @media (max-width: 1300px) {
+  .trans{
+    border-left: transparent;
+  }
   .remove-rem {
     margin-bottom: -30rem;
   }
-
-  .inner-cursor {
-    background-color: transparent;
-  }
-
-  .outer-cursor {
-    background-color: transparent;
-    border: 0px solid transparent;
+  .small{
+    color: transparent;
   }
 
   .logo-drawing {
