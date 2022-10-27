@@ -14,7 +14,7 @@ function moveCursor(e) {
   outerCursor.style.top = `${y}px`;
 }
 
-//mouse circle grows when hovering over a clickable link to give visual feedback
+//mouse circle grows when hovering over a clickable link, giving visual feedback
 let links = Array.from(document.querySelectorAll("li"));
 
 links.forEach((link) => {
