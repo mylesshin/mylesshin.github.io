@@ -365,7 +365,7 @@ body {
 .about-me{
 align-items: center;
 text-align: center;
-/* margin-left: 35%; */
+margin-bottom: 150px;
 }
 .contact {
   text-align: left;
