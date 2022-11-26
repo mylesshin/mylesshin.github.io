@@ -339,11 +339,34 @@ body {
   left: 50%;
   border-left: 8px dotted white;
 }
+.list-of-me{
+  display: inline-block;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  color: white;
+  font-size: 22px;
+  font-family: raleway;
+  margin-top:  -150px;
+}
 
 .intro {
   margin-bottom: 200px;
+  margin-top: 80px;
+}
+.intro-me {
+  margin-bottom: 200px;
+  margin-top: 80px;
+  text-align: center;
+  /* text-align : left; */
 }
 
+.about-me{
+align-items: center;
+text-align: center;
+/* margin-left: 35%; */
+}
 .contact {
   text-align: left;
   margin-left: 35%;
