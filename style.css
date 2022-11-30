@@ -16,8 +16,17 @@
 }
 
 @font-face {
+  src: url(fonts/arialic.ttf);
+  font-family: arialic;
+}
+
+@font-face {
   src: url(fonts/raleway.ttf);
   font-family: raleway;
+}
+@font-face {
+  src: url(fonts/raleway-bold.ttf);
+  font-family: raleway-bold;
 }
 
 @font-face {
@@ -237,7 +246,14 @@ subtitle {
   border-radius: 50%;
   height: 130px;
   width: 130px;
+  padding: 5px;
+  border: 3px solid #32BA84;
 }
+
+.blue-border{
+  border: 3px solid #5BA7D1;
+}
+
 
 .button {
   border: 0;
@@ -319,7 +335,7 @@ body {
   mix-blend-mode: difference;
   border-radius: 50%;
   pointer-events: none;
-  /* transition: 0.1s; */
+  transition: 0.1s;
 }
 
 .vertical_dotted_line {
@@ -346,19 +362,29 @@ body {
   margin-right: auto;
   list-style-type: none;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-family: raleway;
-  margin-top:  -150px;
+  margin-top:  30px;
 }
 
 .intro {
   margin-bottom: 200px;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .intro-me {
   margin-bottom: 200px;
+  font-size: 35px;
   margin-top: 80px;
   text-align: center;
+  font-family: raleway-bold;
+  line-height: 1.75;
+}
+
+.i-am{
+  font-family: arialic;
+  font-size: 100px;
+  margin-top: -200px;
+  margin-bottom: 40px;
 }
 
 .about-me{
@@ -378,6 +404,11 @@ margin-bottom: 150px;
   margin-top: -140px;
 }
 
+.one-line{
+  white-space: nowrap;
+  margin-top: 30px;
+}
+
 .qr-code {
   display: block;
   margin-left: auto;
@@ -386,7 +417,9 @@ margin-bottom: 150px;
   height: 100px;
   width: 100px;
   margin-top: 30px;
-  /* margin-top: -400px; */
+  padding: 0.3rem;
+  border: 2px solid #5BA7D1;
+  border-radius: 10%;
 }
 
 .pad {
@@ -496,6 +529,8 @@ margin-bottom: 150px;
   height: 220px;
   width: 220px;
   margin-left: -450px;
+  padding: 8px;
+  border: 5px solid #32BA84;
 }
 
 .logo {
@@ -532,21 +567,44 @@ margin-bottom: 150px;
   padding-bottom: -200px;
 }
 
+.pic {
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  margin-left: 0%;
+}
 
-.pic1 {
+.pic1{
+  padding: 10px;
+  border: 3px solid #5BA7D1;
+  margin-top: 20px;
+  border-radius: 17%;
+
+}
+
+.pic2{
+  padding: 10px;
+  border: 3px solid #32BA84;
+  border-radius: 17%;
+
+}
+
+/* .pic1 {
   display: inline-block;
   height: 370px;
   width: 320px;
   margin-bottom: -200px;
   margin-left: 0%;
-}
+} */
 
-.pic2 {
+/* .pic2 {
   display: inline-block;
   height: 270px;
   width: 290px;
   margin-bottom: -40px;
   margin-left: -10px;
+  padding: 10px;
+  border: 3px solid #32BA84;
 }
 
 .pic3 {
@@ -586,7 +644,7 @@ margin-bottom: 150px;
   margin-left: -10px;
   height: 475px;
   width: 368px;
-}
+} */
 
 .box {
   width: 275px;
@@ -798,12 +856,36 @@ fade-in4 {
   height: 400px;
   width: 300px;
   margin-bottom: -50px;
+  padding: 10px;
+  border: 3px solid #5BA7D1;
+  border-radius: 10%;
+}
+
+.li{
+  display: inline-block;
+}
+
+.percentage{
+  display: inline-block;
+  font-family: lulo;
+  font-size: 40px;  
+  color: #32BA84;
+}
+
+.box-percent{
+  width: 560px;
+  height: 560px;
+  border: 5px solid #5BA7D1;
+
 }
 
 .figma {
-  height: 300px;
-  width: 600px;
-  padding-left: 120px;
+  height: 230px;
+  width: 450px;
+  margin-left: 120px;
+  padding: 10px;
+  border: 3px solid #32BA84;
+  border-radius: 6%;
 }
 
 .left-col {
@@ -882,12 +964,16 @@ fade-in4 {
     height: 19rem;
     width: 15rem;
     margin-bottom: -3.5rem;
+    padding: 0.3rem;
+    border: 2px solid #5BA7D1;
   }
 
   .figma {
     height: 11rem;
     width: 24rem;
     padding-left: 4rem;
+    padding: 0.3rem;
+    border: 2px solid #32BA84;
   }
 
   .name {
@@ -908,16 +994,28 @@ fade-in4 {
     height: 10rem;
     width: 10rem;
     margin-left: -30%;
+    padding: 0.3rem;
+    border: 2px solid #32BA84;  
   }
 
-  .pic1 {
-    height: 14rem;
-    width: 10rem;
+  
+   .pic1 {
+    height: 7rem;
+    width: 7rem;
+    padding: 0.3rem;
+    border: 3px solid #5BA7D1;
   }
-
+  .pic2 {
+    height: 7rem;
+    width: 7rem;
+    padding: 0.3rem;
+    border: 3px solid #32BA84;
+  }
+/*
   .pic2 {
     height: 14rem;
     width: 11rem;
+
   }
 
   .pic3 {
@@ -950,7 +1048,7 @@ fade-in4 {
     margin-left: -13px;
     height: 17rem;
     width: 14rem;
-  }
+  } */
 
   .button-small {
     height: 5rem;
@@ -965,6 +1063,8 @@ fade-in4 {
   .image3 {
     height: 5rem;
     width: 5rem;
+    padding: 0.2rem;
+    border: 1px solid #32BA84;
   }
 
   .image4 {
@@ -1009,12 +1109,46 @@ fade-in4 {
     height: 215px;
   }
 
+  .box-percent{
+    width: 230px;
+    height: 230px;
+  }
+
+  .list-of-me{
+    font-size: 0.8rem;
+    line-height: 0.2rem;
+    margin-top: 0rem;
+  }
+
+  .intro-me{
+    font-size: 1.5rem;
+  }
+
+  .i-am{
+    font-size: 4rem;
+  }
+
+
+  .percentage{
+    font-size: 1.2rem;
+  }
+
   .box-title {
     font-size: 1.5rem;
   }
 
   .box-item {
     font-size: 1rem;
+  }
+}
+@media (max-width: 700px){
+  .inner-cursor{
+    background-color: transparent;
+  }
+
+  .outer-cursor{
+    border: 0px;
+    background-color: transparent;
   }
 }
 
@@ -1030,11 +1164,15 @@ fade-in4 {
     text-align: center;
   }
 
+    body .cursor {
+        display: 'none'
+    }
+
   subtitle {
     padding-top: 0.5rem;
     font-size: 1.3rem;
   }
-
+  
   .subtitle-container subtitle span {
     margin-top: -.2rem;
     vertical-align: bottom;
@@ -1112,12 +1250,16 @@ fade-in4 {
     height: 10rem;
     width: 8rem;
     margin-bottom: -2.5rem;
+    padding: 0.3rem;
+    border: 2px solid #5BA7D1;
   }
 
   .figma {
     height: 5.5rem;
     width: 13rem;
     padding-left: 2rem;
+    padding: 0.3rem;
+    border: 2px solid #32BA84;
   }
 
   .top-line {
@@ -1138,6 +1280,8 @@ fade-in4 {
     height: 6rem;
     width: 6rem;
     margin-left: -55%;
+    padding: 0.3rem;
+    border: 2px solid #32BA84;  
   }
 
   .logo {
@@ -1159,6 +1303,19 @@ fade-in4 {
     margin-top: 9.2rem;
   }
 
+  .pic1 {
+    height: 5rem;
+    width: 5rem;
+    padding: 0.3rem;
+    border: 2px solid #5BA7D1;
+  }
+  .pic2 {
+    height: 5rem;
+    width: 5rem;
+    padding: 0.3rem;
+    border: 2px solid #32BA84;
+  }
+/* 
   .pic1 {
     height: 9rem;
     width: 7rem;
@@ -1199,7 +1356,7 @@ fade-in4 {
     margin-left: -17px;
     height: 11rem;
     width: 8rem;
-  }
+  } */
 
   .button-small {
     height: 4rem;
@@ -1214,6 +1371,8 @@ fade-in4 {
   .image3 {
     height: 4rem;
     width: 4rem;
+    padding: 0.2rem;
+    border: 1px solid #32BA84;
   }
 
   .image4 {
@@ -1265,12 +1424,25 @@ fade-in4 {
     height: 9rem;
     width: 7rem;
     margin-bottom: -2rem;
+        padding: 0.2rem;
+    border: 2px solid #5BA7D1;
+  }
+
+  .inner-cursor{
+    background-color: transparent;
+  }
+
+  .outer-cursor{
+    border: 0px;
+    background-color: transparent;
   }
 
   .figma {
     height: 5rem;
     width: 10rem;
     padding-left: 2rem;
+    padding: 0.2rem;
+    border: 1px solid #32BA84;
   }
 
   .remove-seventy-pad{
@@ -1280,8 +1452,21 @@ fade-in4 {
   .remove-rem {
     margin-top: 0rem;
   }
-
+  
   .pic1 {
+    height: 4rem;
+    width: 4rem;
+    padding: 0.3rem;
+    border: 2px solid #5BA7D1;
+  }
+  .pic2 {
+    height: 4rem;
+    width: 4rem;
+    padding: 0.3rem;
+    border: 2px solid #32BA84;
+  }
+
+  /* .pic1 {
     height: 8rem;
     width: 6rem;
   }
@@ -1320,5 +1505,5 @@ fade-in4 {
     margin-left: -15px;
     height: 10rem;
     width: 8rem;
-  }
+  } */
 }
