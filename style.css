@@ -1014,14 +1014,14 @@ fade-in4 {
   }
 
   .box-percent{
-    width: 230px;
-    height: 230px;
+    width: 330px;
+    height: 330px;
   }
 
   .list-of-me{
-    font-size: 0.8rem;
-    line-height: 0.2rem;
-    margin-top: 0rem;
+    font-size: 1.3rem;
+    line-height: 0.4rem;
+    margin-top: 2rem;
   }
 
   .intro-me{
@@ -1034,7 +1034,7 @@ fade-in4 {
 
 
   .percentage{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .box-title {
@@ -1076,7 +1076,24 @@ fade-in4 {
     padding-top: 0.5rem;
     font-size: 1.3rem;
   }
-  
+  .box-percent{
+    width: 230px;
+    height: 230px;
+  }
+
+  .list-of-me{
+    font-size: 0.8rem;
+    line-height: 0.2rem;
+    margin-top: 0rem;
+  }
+
+  .intro-me{
+    font-size: 1.5rem;
+  }
+
+  .percentage{
+    font-size: 1.2rem;
+  }
   .subtitle-container subtitle span {
     margin-top: -.2rem;
     vertical-align: bottom;
