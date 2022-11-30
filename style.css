@@ -586,65 +586,7 @@ margin-bottom: 150px;
   padding: 10px;
   border: 3px solid #32BA84;
   border-radius: 17%;
-
 }
-
-/* .pic1 {
-  display: inline-block;
-  height: 370px;
-  width: 320px;
-  margin-bottom: -200px;
-  margin-left: 0%;
-} */
-
-/* .pic2 {
-  display: inline-block;
-  height: 270px;
-  width: 290px;
-  margin-bottom: -40px;
-  margin-left: -10px;
-  padding: 10px;
-  border: 3px solid #32BA84;
-}
-
-.pic3 {
-  display: inline-block;
-  height: 270px;
-  width: 230px;
-  margin-bottom: -40px;
-  margin-left: -10px;
-}
-
-.pic4 {
-  display: inline-block;
-  height: 270px;
-  width: 260px;
-  margin-bottom: -40px;
-  margin-left: -10px;
-}
-
-.pic5 {
-  display: inline-block;
-  margin-top: -20px;
-  margin-left: -10px;
-  margin-right: -10px;
-  height: 475px;
-  width: 339px;
-}
-
-.pic6 {
-  display: inline-block;
-  margin-left: -10px;
-  height: 510px;
-  width: 365px;
-}
-
-.pic7 {
-  display: inline-block;
-  margin-left: -10px;
-  height: 475px;
-  width: 368px;
-} */
 
 .box {
   width: 275px;
@@ -961,16 +903,16 @@ fade-in4 {
   }
 
   .logo-drawing {
-    height: 19rem;
-    width: 15rem;
+    height: 17rem;
+    width: 13rem;
     margin-bottom: -3.5rem;
     padding: 0.3rem;
     border: 2px solid #5BA7D1;
   }
 
   .figma {
-    height: 11rem;
-    width: 24rem;
+    height: 10rem;
+    width: 22rem;
     padding-left: 4rem;
     padding: 0.3rem;
     border: 2px solid #32BA84;
@@ -1000,55 +942,17 @@ fade-in4 {
 
   
    .pic1 {
-    height: 7rem;
-    width: 7rem;
+    height: 8rem;
+    width: 8rem;
     padding: 0.3rem;
     border: 3px solid #5BA7D1;
   }
   .pic2 {
-    height: 7rem;
-    width: 7rem;
+    height: 8rem;
+    width: 8rem;
     padding: 0.3rem;
     border: 3px solid #32BA84;
   }
-/*
-  .pic2 {
-    height: 14rem;
-    width: 11rem;
-
-  }
-
-  .pic3 {
-    height: 14rem;
-    width: 11rem;
-    margin-left: -2rem;
-  }
-
-  .pic4 {
-    display: inline-block;
-    height: 14rem;
-    width: 11rem;
-    margin-left: -2rem;
-  }
-
-  .pic5 {
-    margin-top: -20px;
-    height: 17rem;
-    width: 14rem;
-  }
-
-  .pic6 {
-    margin-left: -15px;
-    height: 17rem;
-    width: 14rem;
-  }
-
-  .pic7 {
-    display: inline-block;
-    margin-left: -13px;
-    height: 17rem;
-    width: 14rem;
-  } */
 
   .button-small {
     height: 5rem;
@@ -1247,16 +1151,16 @@ fade-in4 {
   }
 
   .logo-drawing {
-    height: 10rem;
-    width: 8rem;
+    height: 8rem;
+    width: 6rem;
     margin-bottom: -2.5rem;
     padding: 0.3rem;
     border: 2px solid #5BA7D1;
   }
 
   .figma {
-    height: 5.5rem;
-    width: 13rem;
+    height: 5.1rem;
+    width: 9rem;
     padding-left: 2rem;
     padding: 0.3rem;
     border: 2px solid #32BA84;
@@ -1304,59 +1208,17 @@ fade-in4 {
   }
 
   .pic1 {
-    height: 5rem;
-    width: 5rem;
+    height: 7rem;
+    width: 57rem;
     padding: 0.3rem;
     border: 2px solid #5BA7D1;
   }
   .pic2 {
-    height: 5rem;
-    width: 5rem;
+    height: 7rem;
+    width: 7rem;
     padding: 0.3rem;
     border: 2px solid #32BA84;
   }
-/* 
-  .pic1 {
-    height: 9rem;
-    width: 7rem;
-  }
-
-  .pic2 {
-    height: 9rem;
-    width: 7rem;
-  }
-
-  .pic3 {
-    height: 9rem;
-    width: 7rem;
-    margin-left: -2.6rem;
-  }
-
-  .pic4 {
-    display: inline-block;
-    height: 9rem;
-    width: 7rem;
-    margin-left: -2.2rem;
-  }
-
-  .pic5 {
-    margin-top: -20px;
-    height: 12rem;
-    width: 9rem;
-  }
-
-  .pic6 {
-    margin-left: -19px;
-    height: 12rem;
-    width: 9rem;
-  }
-
-  .pic7 {
-    display: inline-block;
-    margin-left: -17px;
-    height: 11rem;
-    width: 8rem;
-  } */
 
   .button-small {
     height: 4rem;
@@ -1421,8 +1283,8 @@ fade-in4 {
 /* smaller phones */
 @media (max-width: 600px) {
   .logo-drawing {
-    height: 9rem;
-    width: 7rem;
+    height: 8rem;
+    width: 6rem;
     margin-bottom: -2rem;
         padding: 0.2rem;
     border: 2px solid #5BA7D1;
@@ -1438,8 +1300,8 @@ fade-in4 {
   }
 
   .figma {
-    height: 5rem;
-    width: 10rem;
+    height: 4rem;
+    width: 8rem;
     padding-left: 2rem;
     padding: 0.2rem;
     border: 1px solid #32BA84;
@@ -1454,56 +1316,15 @@ fade-in4 {
   }
   
   .pic1 {
-    height: 4rem;
-    width: 4rem;
+    height: 5rem;
+    width: 5rem;
     padding: 0.3rem;
     border: 2px solid #5BA7D1;
   }
   .pic2 {
-    height: 4rem;
-    width: 4rem;
+    height: 5rem;
+    width: 5rem;
     padding: 0.3rem;
     border: 2px solid #32BA84;
   }
-
-  /* .pic1 {
-    height: 8rem;
-    width: 6rem;
-  }
-
-  .pic2 {
-    height: 8rem;
-    width: 6rem;
-  }
-
-  .pic3 {
-    height: 8rem;
-    width: 6rem;
-    margin-left: -2.5rem;
-  }
-
-  .pic4 {
-    height: 8rem;
-    width: 6rem;
-    margin-left: -1.9rem;
-  }
-
-  .pic5 {
-    margin-top: -20px;
-    height: 10rem;
-    width: 7rem;
-  }
-
-  .pic6 {
-    margin-left: -19px;
-    height: 10rem;
-    width: 7rem;
-  }
-
-  .pic7 {
-    display: inline-block;
-    margin-left: -15px;
-    height: 10rem;
-    width: 8rem;
-  } */
 }
