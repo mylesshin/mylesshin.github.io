@@ -335,7 +335,7 @@ body {
   mix-blend-mode: difference;
   border-radius: 50%;
   pointer-events: none;
-  transition: 0.1s;
+  transition: 0s;
 }
 
 .vertical_dotted_line {
@@ -1382,11 +1382,11 @@ h5 {
   }
 
   .bio {
-    font-size: .5rem;
+    font-size: .6rem;
   }
 
   .bio2 {
-    font-size: .5rem;
+    font-size: .6rem;
   }
 
   .col-right {
