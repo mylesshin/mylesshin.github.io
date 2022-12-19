@@ -117,6 +117,72 @@ flips.forEach(flips => {
   observer.observe(flips)
 })
 
+//flip-in2 transitions. checks to see if user is on that part of the screen and
+//will run the animation if they are and animation will stay they after
+const flips2 = document.querySelectorAll('.flip-in2');
+var flipNum2 = -1;
+
+observer = new IntersectionObserver((entries) => {
+
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.style.animation = `flip2 1s ${entry.target.dataset.delay}
+      forwards ease-out`;
+      flipNum2 = entry.intersectionRatio;
+    } else if (flipNum2 > 0) {} else {
+      entry.target.style.animation = 'none';
+    }
+  })
+})
+
+flips2.forEach(flips2 => {
+  observer.observe(flips2)
+})
+
+//flip-in3 transitions. checks to see if user is on that part of the screen and
+//will run the animation if they are and animation will stay they after
+const flips3 = document.querySelectorAll('.flip-in3');
+var flipNum3 = -1;
+
+observer = new IntersectionObserver((entries) => {
+
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.style.animation = `flip3 1s ${entry.target.dataset.delay}
+      forwards ease-out`;
+      flipNum3 = entry.intersectionRatio;
+    } else if (flipNum3 > 0) {} else {
+      entry.target.style.animation = 'none';
+    }
+  })
+})
+
+flips3.forEach(flips3 => {
+  observer.observe(flips3)
+})
+
+//flip-in4 transitions. checks to see if user is on that part of the screen and
+//will run the animation if they are and animation will stay they after
+const flips4 = document.querySelectorAll('.flip-in4');
+var flipNum4 = -1;
+
+observer = new IntersectionObserver((entries) => {
+
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.style.animation = `flip4 1s ${entry.target.dataset.delay}
+      forwards ease-out`;
+      flipNum4 = entry.intersectionRatio;
+    } else if (flipNum4 > 0) {} else {
+      entry.target.style.animation = 'none';
+    }
+  })
+})
+
+flips4.forEach(flips4 => {
+  observer.observe(flips4)
+})
+
 
 //typing transitions. checks to see if user is on that part of the screen and
 //will run the animation if they are and animation will stay they after
@@ -227,4 +293,161 @@ observer = new IntersectionObserver((entries) => {
 
 fades4.forEach(fades4 => {
   observer.observe(fades4)
+})
+
+
+//slide-up transitions. checks to see if user is on that part of the screen and
+//will run the animation if they are and animation will stay they after
+const slideUp = document.querySelectorAll('.slide-up');
+var slideUpNum = -1;
+
+observer = new IntersectionObserver((entries) => {
+
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.style.animation = `slideUp 1s ${entry.target.dataset.delay}
+      forwards ease-out`;
+      slideUpNum = entry.intersectionRatio;
+    } else if (slideUpNum > 0) {} else {
+      entry.target.style.animation = 'none';
+    }
+  })
+})
+
+slideUp.forEach(slideUp => {
+  observer.observe(slideUp)
+})
+
+
+//slide-up2 transitions. checks to see if user is on that part of the screen and
+//will run the animation if they are and animation will stay they after
+const slideUp2 = document.querySelectorAll('.slide-up2');
+var slideUpNum2 = -1;
+
+observer = new IntersectionObserver((entries) => {
+
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.style.animation = `slideUp2 1s ${entry.target.dataset.delay}
+      forwards ease-out`;
+      slideUpNum2 = entry.intersectionRatio;
+    } else if (slideUpNum2 > 0) {} else {
+      entry.target.style.animation = 'none';
+    }
+  })
+})
+
+slideUp2.forEach(slideUp2 => {
+  observer.observe(slideUp2)
+})
+
+//slide-up3 transitions. checks to see if user is on that part of the screen and
+//will run the animation if they are and animation will stay they after
+const slideUp3 = document.querySelectorAll('.slide-up3');
+var slideUpNum3 = -1;
+
+observer = new IntersectionObserver((entries) => {
+
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.style.animation = `slideUp3 1s ${entry.target.dataset.delay}
+      forwards ease-out`;
+      slideUpNum3 = entry.intersectionRatio;
+    } else if (slideUpNum3 > 0) {} else {
+      entry.target.style.animation = 'none';
+    }
+  })
+})
+
+slideUp3.forEach(slideUp3 => {
+  observer.observe(slideUp3)
+})
+
+//slide-up4 transitions. checks to see if user is on that part of the screen and
+//will run the animation if they are and animation will stay they after
+const slideUp4 = document.querySelectorAll('.slide-up4');
+var slideUpNum4 = -1;
+
+observer = new IntersectionObserver((entries) => {
+
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.style.animation = `slideUp4 1s ${entry.target.dataset.delay}
+      forwards ease-out`;
+      slideUpNum4 = entry.intersectionRatio;
+    } else if (slideUpNum4 > 0) {} else {
+      entry.target.style.animation = 'none';
+    }
+  })
+})
+
+slideUp4.forEach(slideUp4 => {
+  observer.observe(slideUp4)
+})
+
+
+//slide-up5 transitions. checks to see if user is on that part of the screen and
+//will run the animation if they are and animation will stay they after
+const slideUp5 = document.querySelectorAll('.slide-up5');
+var slideUpNum5 = -1;
+
+observer = new IntersectionObserver((entries) => {
+
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.style.animation = `slideUp5 1s ${entry.target.dataset.delay}
+      forwards ease-out`;
+      slideUpNum5 = entry.intersectionRatio;
+    } else if (slideUpNum5 > 0) {} else {
+      entry.target.style.animation = 'none';
+    }
+  })
+})
+
+slideUp5.forEach(slideUp5 => {
+  observer.observe(slideUp5)
+})
+
+//slide-up6 transitions. checks to see if user is on that part of the screen and
+//will run the animation if they are and animation will stay they after
+const slideUp6 = document.querySelectorAll('.slide-up6');
+var slideUpNum6 = -1;
+
+observer = new IntersectionObserver((entries) => {
+
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.style.animation = `slideUp6 1s ${entry.target.dataset.delay}
+      forwards ease-out`;
+      slideUpNum6 = entry.intersectionRatio;
+    } else if (slideUpNum6 > 0) {} else {
+      entry.target.style.animation = 'none';
+    }
+  })
+})
+
+slideUp6.forEach(slideUp6 => {
+  observer.observe(slideUp6)
+})
+
+//slide-up6 transitions. checks to see if user is on that part of the screen and
+//will run the animation if they are and animation will stay they after
+const slideUp7 = document.querySelectorAll('.slide-up7');
+var slideUpNum7 = -1;
+
+observer = new IntersectionObserver((entries) => {
+
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.style.animation = `slideUp7 1s ${entry.target.dataset.delay}
+      forwards ease-out`;
+      slideUpNum7 = entry.intersectionRatio;
+    } else if (slideUpNum7 > 0) {} else {
+      entry.target.style.animation = 'none';
+    }
+  })
+})
+
+slideUp7.forEach(slideUp7 => {
+  observer.observe(slideUp7)
 })
